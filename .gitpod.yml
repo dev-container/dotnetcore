@@ -2,4 +2,4 @@ image: gitpod/workspace-dotnet
 
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
-    command: 'echo "TODO: Replace with command to start project"'
+    command: export DOTNET_CLI_TELEMETRY_OPTOUT=1

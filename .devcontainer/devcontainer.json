@@ -39,6 +39,7 @@
 		// "source=${env:HOME}${env:USERPROFILE}/.aspnet/https,target=/home/vscode/.aspnet/https,type=bind"
 	],
 	"remoteEnv": {
+		"DOTNET_CLI_TELEMETRY_OPTOUT": "1"
 		// "ASPNETCORE_Kestrel__Certificates__Default__Password": "SecurePwdGoesHere",
 		// "ASPNETCORE_Kestrel__Certificates__Default__Path": "/home/vscode/.aspnet/https/aspnetapp.pfx",
 	},
